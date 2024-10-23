@@ -1,0 +1,99 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Grilled Lemon Salmon",
+      "recipe_image": "https://i.ibb.co.com/DVvZMY4/download.jpg",
+      "short_description": "A zesty grilled salmon with lemon and herbs.",
+      "ingredients": [
+        "2 salmon fillets",
+        "1 lemon, sliced",
+        "2 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp thyme",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": 20,
+      "calories": 250
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Vegetable Stir-Fry",
+      "recipe_image": "https://i.ibb.co.com/GWwdmNY/download-1.jpg",
+      "short_description": "A healthy and colorful vegetable stir-fry.",
+      "ingredients": [
+        "200 g broccoli",
+        "100 g carrots, sliced",
+        "1 red bell pepper, sliced",
+        "100 g snow peas",
+        "2 tbsp soy sauce",
+        "1 tsp sesame oil"
+      ],
+      "preparing_time": 15,
+      "calories": 180
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Beef Tacos",
+      "recipe_image": "https://i.ibb.co.com/TPZKqwf/Margherita-Pizza.jpg",
+      "short_description": "Classic beef tacos with fresh toppings.",
+      "ingredients": [
+        "500 g ground beef",
+        "1 packet taco seasoning",
+        "8 taco shells",
+        "1 tomato, diced",
+        "1 avocado, sliced",
+        "1 cup shredded lettuce"
+      ],
+      "preparing_time": 25,
+      "calories": 320
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Spaghetti Carbonara",
+      "recipe_image": "https://i.ibb.co.com/w6kdMmn/download-2.jpg",
+      "short_description": "Creamy spaghetti carbonara with pancetta.",
+      "ingredients": [
+        "200 g spaghetti",
+        "100 g pancetta",
+        "2 eggs",
+        "50 g parmesan cheese, grated",
+        "1 clove garlic, minced",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": 30,
+      "calories": 400
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Chicken Caesar Salad",
+      "recipe_image": "https://i.ibb.co.com/8s89Q0K/spaghetti.png",
+      "short_description": "Grilled chicken Caesar salad with homemade dressing.",
+      "ingredients": [
+        "1 romaine lettuce",
+        "200 g grilled chicken breast, sliced",
+        "50 g parmesan cheese, shaved",
+        "2 tbsp Caesar dressing",
+        "Croutons",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": 15,
+      "calories": 350
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Chocolate Lava Cake",
+      "recipe_image": "https://i.ibb.co.com/HKQG7q0/caesar.png",
+      "short_description": "Rich molten chocolate lava cake, perfect for dessert.",
+      "ingredients": [
+        "100 g dark chocolate",
+        "100 g butter",
+        "2 eggs",
+        "50 g sugar",
+        "50 g flour",
+        "Vanilla ice cream (optional)"
+      ],
+      "preparing_time": 25,
+      "calories": 450
+    }
+  ]
+  
