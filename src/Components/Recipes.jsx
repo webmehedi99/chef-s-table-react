@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const Recipes = () => {
+const Recipes = ({addRecipeToQueue}) => {
     const [recipes, setRecipes] = useState([]);
     useEffect(() => {
         fetch('../recipes.json')
@@ -27,11 +27,11 @@ const Recipes = () => {
                             }
                             <hr className='mt-6' />
                             <div className='flex flex-row justify-center items-center'>
-                                <p className='text-base text-gray-600 mt-4 pb-4'><i class="fa-regular fa-clock"></i> {recipe.preparing_time} minutes</p>
-                                <p className='text-base text-gray-600 mt-4 pb-4'><i class="fa-solid fa-fire-flame-curved"></i> {recipe.calories} Calories</p>
+                                <p className='text-base text-gray-600 mt-4 pb-4'><i className="fa-regular fa-clock  "></i> {recipe.preparing_time} minutes</p>
+                                <p className='text-base text-gray-600 mt-4 pb-4'><i className="fa-solid fa-fire-flame-curved"></i> {recipe.calories} Calories</p>
                             </div>
                             <div className="">
-                                <button className="text-lg font-semibold bg-[#0BE58A] text-black px-6 py-3 rounded-full">Want To Cook</button>
+                                <button onClick={() => addRecipeToQueue(recipe)} className="text-lg font-semibold bg-[#0BE58A] text-black px-6 py-3 rounded-full">Want To Cook</button>
                             </div>
                         </div>
                     </div>))
